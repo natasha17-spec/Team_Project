@@ -1,11 +1,13 @@
 import React from 'react'
-import Features from "../../../n2_features/Feauters";
+import Routes from "../routes/Routes";
+import './Header.module.css'
+
 
 
 const Header = () => {
     return (
-        <div>
-            <Features/>
+        <div className='header_container'>
+            <Routes/>
         </div>
     )
 }

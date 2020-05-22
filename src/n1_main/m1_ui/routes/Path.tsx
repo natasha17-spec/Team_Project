@@ -1,0 +1,5 @@
+export const LOGIN = '/login'
+export const REGISTER = '/register'
+export const RECOVERY = '/recovery'
+export const NEWPASS = '/newpass'
+export const PROFILE = '/profile'
