@@ -24,11 +24,11 @@ const Routes = () => {
                 {/*<div className={s.button_menu}> <ButtonMenu/></div>*/}
 
                     {showResults && <div className={s.linkContainer}>
-                        <div className={s.link}><NavLink to="/login">login</NavLink></div>
-                        <div className={s.link}><NavLink to="/register">register</NavLink></div>
-                        <div className={s.link}><NavLink to="/recovery">recovery</NavLink></div>
-                        <div className={s.link}><NavLink to="/newpass">newpass</NavLink></div>
-                        <div className={s.link}><NavLink to="/profile">profile</NavLink></div>
+                        <div className={s.link}><NavLink to={LOGIN}>login</NavLink></div>
+                        <div className={s.link}><NavLink to={REGISTER}>register</NavLink></div>
+                        <div className={s.link}><NavLink to={RECOVERY}>recovery</NavLink></div>
+                        <div className={s.link}><NavLink to={NEWPASS}>newpass</NavLink></div>
+                        <div className={s.link}><NavLink to={PROFILE}>profile</NavLink></div>
                     </div>
                     }
 

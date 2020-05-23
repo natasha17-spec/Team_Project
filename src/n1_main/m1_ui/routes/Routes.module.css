@@ -6,19 +6,26 @@
 a {
     margin: 20px 20px 0 20px;
     display: contents;
-    font-size: 16px;
+    font-size: 22px;
     font-family: "JetBrains Mono ExtraBold", sans-serif;
-    color: black;
+    color: #fdfdfd;
     width: 60px;
     text-decoration: none;
 }
 
-a:focus {
+a:active {
     color: gold;
 }
 
 .link {
     margin: 10px 20px 0 20px;
+    border: 2px solid white;
+    padding: 3px;
+}
+.link:focus {
+
+    border: 2px solid gold;
+
 }
 .button_menu {
     margin: 20px;
