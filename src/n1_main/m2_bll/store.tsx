@@ -13,4 +13,8 @@ const rootReducer = combineReducers({
     newPass: newPassReducer,
     profile: profileReducer,
 })
-export const store = createStore(rootReducer,applyMiddleware(thunkMiddleware))
+type RootReducerType= typeof rootReducer;
+export type AppStateType = ReturnType<RootReducerType>
+
+const store = createStore(rootReducer, applyMiddleware(thunkMiddleware));
+export default store;

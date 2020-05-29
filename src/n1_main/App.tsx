@@ -3,7 +3,7 @@ import './App.css';
 import {HashRouter} from "react-router-dom";
 import {Provider} from "react-redux";
 import Main from "./m1_ui/main/Main";
-import {store} from "./m2_bll/store";
+import store from "./m2_bll/store";
 
 
 const App = () => {
